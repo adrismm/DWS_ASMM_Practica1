@@ -1,0 +1,22 @@
+._decoration::before
+{
+    content: "";
+
+    height: 32px;
+    width: 32px;
+    margin-right: .5rem;
+
+    display: inline-block;
+    transform: scaleX(-100%);
+}
+
+._decoration::after
+{
+    content: "";
+
+    height: 32px;
+    width: 32px;
+    margin-right: .5rem;
+
+    display: inline-block;
+}
